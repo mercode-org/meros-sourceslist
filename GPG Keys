@@ -1,0 +1,11 @@
+
+curl -L https://packagecloud.io/AtomEditor/atom/gpgkey | apt-key add -
+wget http://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb && dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
+wget -q -O - http://download.opensuse.org/repositories/home:/ivaradi/Debian_9.0/Release.key | apt-key add -
+curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -
+wget -q -O- https://packages.sury.org/php/apt.gpg | apt-key add -
+apt-key adv --keyserver ha.pool.sks-keyservers.net --recv-keys 74A941BA219EC810
+apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 11E9DE8848F2B65222AA75B8D1820DB22A11534E
+wget -nc https://dl.winehq.org/wine-builds/winehq.key && apt-key add winehq.key && rm winehq.key
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+

@@ -1,0 +1,72 @@
+#------------------------------------------------------------------------------#
+# _____ ______   _______   ________  ________  ________      
+#|\   _ \  _   \|\  ___ \ |\   __  \|\   __  \|\   ____\     
+#\ \  \\\__\ \  \ \   __/|\ \  \|\  \ \  \|\  \ \  \___|_    
+# \ \  \\|__| \  \ \  \_|/_\ \   _  _\ \  \\\  \ \_____  \   
+#  \ \  \    \ \  \ \  \_|\ \ \  \\  \\ \  \\\  \|____|\  \  
+#   \ \__\    \ \__\ \_______\ \__\\ _\\ \_______\____\_\  \ 
+#    \|__|     \|__|\|_______|\|__|\|__|\|_______|\_________\
+#                                                \|_________|
+# 2019 merOS - Made by The Mercode Community (mercode.org)
+#------------------------------------------------------------------------------#
+
+
+#------------------------------------------------------------------------------#
+#                  OFFICIAL DEBIAN REPOS/ RESMİ DEBIAN REPOLARI                    
+#------------------------------------------------------------------------------#
+
+###### Debian Main Repos/ Debian Ana Repoları
+deb http://deb.debian.org/debian/ stable main contrib non-free
+deb-src http://deb.debian.org/debian/ stable main contrib non-free
+
+deb http://deb.debian.org/debian/ stable-updates main contrib non-free
+deb-src http://deb.debian.org/debian/ stable-updates main contrib non-free
+
+deb http://deb.debian.org/debian-security stable/updates main
+deb-src http://deb.debian.org/debian-security stable/updates main
+
+deb http://ftp.debian.org/debian buster-backports main
+deb-src http://ftp.debian.org/debian buster-backports main
+
+#------------------------------------------------------------------------------#
+#                  UNOFFICIAL  REPOS/ RESMİ OLMAYAN REPOLAR                      
+#------------------------------------------------------------------------------#
+
+###### 3rd Party Binary Repos/ 3. Parti Binary Repoları
+
+###Chromium Web Browser
+deb http://ppa.launchpad.net/chromium-daily/ppa/ubuntu lucid main
+deb-src http://ppa.launchpad.net/chromium-daily/ppa/ubuntu lucid main
+
+###Atom Editor
+deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main
+
+###Debian Multimedia
+deb [arch=amd64,i386] https://www.deb-multimedia.org buster main non-free
+
+###Nextcloud Client
+deb [arch=amd64,i386] http://download.opensuse.org/repositories/home:/ivaradi/Debian_10.0/ /
+
+###NodeJs
+deb https://deb.nodesource.com/node_12.x buster main
+deb-src https://deb.nodesource.com/node_12.x buster main
+
+###PHP
+deb https://packages.sury.org/php/ buster main
+
+###TOR
+deb [arch=i386,amd64,armel,armhf] http://deb.torproject.org/torproject.org stable main
+deb-src [arch=i386,amd64,armel,armhf] http://deb.torproject.org/torproject.org stable main
+
+###Weechat
+deb https://weechat.org/debian buster main
+deb-src https://weechat.org/debian stretch main
+
+###Wine
+deb [arch=i386] https://dl.winehq.org/wine-builds/debian/ buster main
+
+###yarn
+deb https://dl.yarnpkg.com/debian/ stable main
+
+
+
