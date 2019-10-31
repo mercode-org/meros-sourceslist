@@ -1,5 +1,5 @@
 # meros-sourceslist
 
 ------------------------------
-merOS Debian sourcer.list file.
+merOS Debian sources.list file
 ------------------------------
